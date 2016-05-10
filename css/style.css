@@ -333,7 +333,6 @@ select{
 /*--contact--*/
 .contact{
 	background:url(../images/contact.jpg) no-repeat 0px 0px;
-	min-height:560px;
 	background-size:cover;
 	text-align:center;
 	padding:4em 0;
@@ -1029,7 +1028,7 @@ font-size: 1em;
 a.button1 {
 border: none;
 background:#64C4B8;
-padding: 7px 15px;
+padding: 10px 20px;
 color: #FFF;
 font-size: 13px;
 cursor: pointer;
@@ -1053,18 +1052,21 @@ color: #333;
 font-size: 1.2em;
 }
 .product {
-padding: 3% 0 0 0;
+padding: 0 0 0 0;
+border-top: 2px solid #DDD;
 }
 .product-desc {
-width: 82.3333%;
+width: 80%;
 float: left;
 border-width: 0 1px 0 0;
-border-right: 1px solid #DDD;
+border-right: 2px solid #DDD;
 }
 .product-img {
 float: left;
 margin-right: 2.5%;
-  width: 22%;
+margin-top: 1%;
+margin-bottom: 1%;
+width: 20%;
 }
 .prod1-desc {
 width: 75.2%;
